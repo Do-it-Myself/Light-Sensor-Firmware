@@ -1,0 +1,44 @@
+{
+    "authors":
+    [
+        {
+            "name": "DaveTcc",
+            "url": "https://www.thecoderscorner.com",
+            "maintainer": true
+        },
+        {
+            "name": "Adafruit",
+            "url": "https://www.adafruit.com",
+            "maintainer": false
+        },
+        {
+            "name": "Neal Horman",
+            "url": "https://os.mbed.com/users/nkhorman/",
+            "maintainer": false
+        }
+    ],
+    "description": "A derived version of the BSD licensed Adafruit GFX library for mbed 6 RTOS boards. It can render to SSD1306 and SH1106 controllers using SPI or I2C. It currently requires IoAbstraction and TaskManagerIO to operate.",
+    "license": "BSD-Source-Code",
+    "frameworks": "mbed",
+    "keywords": [
+        "display",
+        "i2c",
+        "oled",
+        "spi",
+        "ssd1306"
+    ],
+    "name": "Adafruit_GFX_mbed_oled",
+    "platforms": "*",
+    "dependencies":
+    [
+        {
+            "name": "IoAbstraction",
+            "authors": "DaveTcc"
+        }
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/davetcc/Adafruit-GFX-mbed-fork"
+    },
+    "version": "0.1.1"
+}

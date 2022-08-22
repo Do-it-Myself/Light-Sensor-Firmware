@@ -1,3 +1,5 @@
 {
-    "name": "TSL2591"
+    "frameworks": "mbed",
+    "name": "TSL2591",
+    "platforms": "*"
 }
