@@ -1,5 +1,5 @@
 #include <mbed.h>
-#include "../light/tsl2591.cpp"
+#include <tsl2591.h>
 
 Serial serial(PA_9, PA_10, 115200);
 TSL2591 sensor(PB_11, PB_10);
